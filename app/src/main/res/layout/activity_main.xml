@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <com.example.customerview.GuideLineView
+        android:id="@+id/guide_line_view"
+        android:layout_width="200dp"
+        android:layout_height="40dp" />
+
+    <com.example.customerview.SwitchButton
+        android:id="@+id/switch_one"
+        android:layout_width="160dp"
+        android:layout_height="100dp"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginTop="10dp" />
+
+    <com.example.customerview.SwitchButton
+        android:id="@+id/switch_two"
+        android:layout_width="160dp"
+        android:layout_height="100dp"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginTop="10dp" />
+
+    <com.example.customerview.ProgressView
+        android:id="@+id/progress_one"
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginTop="10dp" />
+
+    <com.example.customerview.ProgressView
+        android:id="@+id/progress_two"
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginTop="10dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <com.example.customerview.picker.PickView
+            android:id="@+id/picker_one"
+            android:layout_width="100dp"
+            android:layout_height="200dp"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="10dp"/>
+
+        <com.example.customerview.picker.PickView
+            android:id="@+id/picker_two"
+            android:layout_width="100dp"
+            android:layout_height="200dp"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="10dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>
